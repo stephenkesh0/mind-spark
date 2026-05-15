@@ -5,7 +5,7 @@ import TableSearch from "@/components/TableSearch";
 import prisma from "@/lib/prisma";
 import { ITEM_PER_PAGE } from "@/lib/settings";
 import { auth } from "@clerk/nextjs/server";
-import { Prisma, Subject, Teacher } from "@prisma/client";
+import { Prisma, Subject, Teacher } from "@/generated/prisma";
 import Image from "next/image";
 
 
