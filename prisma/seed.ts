@@ -1,5 +1,5 @@
 import { Day, PrismaClient, UserSex } from "@/generated/prisma";
-const prisma = new PrismaClient();
+import prisma from "@/lib/prisma";
 
 async function main() {
   // ADMIN
